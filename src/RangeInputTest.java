@@ -12,6 +12,8 @@ class RangeInputTest {
         passengerTemperature1 = new RangeInput(70, 50);
         passengerTemperature1 = new RangeInput(80,60);
         driverTemperature1= new RangeInput(90,70);
+        driverTemperature1= new RangeInput();
+
 
     }
 

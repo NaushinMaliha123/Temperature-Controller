@@ -1,7 +1,7 @@
 public class RangeInput {
     private int currentTemperature, minTemperature ,maxTemperature;
 
-    private void TemperatureControl() {
+    private void temperatureControl() {
         currentTemperature = (minTemperature + maxTemperature) / 2;
     }
 
@@ -9,13 +9,13 @@ public class RangeInput {
     public  RangeInput(){
         maxTemperature = 60;
         minTemperature = 80;
-        TemperatureControl();
+        temperatureControl();
     }
 
     public RangeInput(int max,int min){
             maxTemperature = max;
             minTemperature = min;
-            TemperatureControl();
+            temperatureControl();
 
     }
 
