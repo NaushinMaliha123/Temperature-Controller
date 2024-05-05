@@ -13,11 +13,10 @@ public class RangeInput {
     }
 
     public RangeInput(int max,int min){
-        {
             maxTemperature = max;
             minTemperature = min;
             TemperatureControl();
-        }
+
     }
 
     public void Up(){
